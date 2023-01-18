@@ -15,7 +15,7 @@ class ProjectCard extends React.Component {
             <img src={ image } alt={ name } />
                 <div className="info">
                     <div className="i-title">
-                        <a className="name" href="URL">{ tec }
+                        <a className="name" href="https://github.com/brendagusmao/">{ tec }
                             <div className="sub-name">{ tec2 }
                             </div>
                             <div> { description }</div>
