@@ -8,7 +8,7 @@ class Projects extends React.Component {
     return (
         <div className="backgroundProject" id="projects">
           <div className="sidebarproject"><h1>Projects</h1></div>
-          <button className="leftb"><a href="https://link.com.br/" target="_blank" rel="noopener noreferrer" title="live preview"> View All Codes</a></button>
+          <button className="leftb"><a href="https://github.com/brendagusmao/" target="_blank" rel="noopener noreferrer" title="live preview"> View All Codes</a></button>
           <section className="left">
           {Project.map((element) => (
               <ProjectCard

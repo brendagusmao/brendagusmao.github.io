@@ -36,7 +36,7 @@ function Header() {
           <ul>
             <li><SiAboutdotme className="icontoggle" /><a onClick={toggleMenu} href="#about">sobre</a></li>
             <li><RiPagesFill className="icontoggle" /><a onClick={toggleMenu} href="#projects">projetos</a></li>
-            <li><MdPermContactCalendar className="icontoggle" /><a onClick={toggleMenu} href="#contact" target="_blank" rel="noreferrer">contato</a></li>
+            <li><MdPermContactCalendar className="icontoggle" /><a onClick={toggleMenu} href="#contact">contato</a></li>
             <li><MdOutlineAutoGraph className="icontoggle" /><a onClick={toggleMenu} href="#skills">Skills</a></li>
             </ul>
             </div>
