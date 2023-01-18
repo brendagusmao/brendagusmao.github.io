@@ -1,0 +1,131 @@
+.backgroundSkills {
+  align-items: left;
+  background: url("data:image/jpeg;base64,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");
+  background-color: #f6f5f5;
+  background-size: repeat;
+  display: flex;
+  flex-direction: row;
+  height: 730px;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 105%;
+  overflow-x: hidden;
+}
+.dark .backgroundSkills {
+  background: url("https://www.toptal.com/designers/subtlepatterns/uploads/tactile_noise.png");
+  background-color: #272726;
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+}
+
+#boxleft {
+  display: flex;
+  margin-left: 50px;
+  width: 45%;
+  height:  60%;
+  padding: 10px;
+  font-family: Poppins;
+  font-size: 15px;
+  margin-top: 100px;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  position: absolute;
+  border-right: 1px solid var(--cor-text-dark);
+  text-align: center;
+}
+.dark #boxleft{
+  color: var(--cor-text-dark);
+}
+
+#boxright {
+  position: absolute;
+  display: flex;
+  width: 40%;
+  display: flex;
+  align-content: flex-end;
+  margin-right: 0px;
+}
+
+.hardSkills {
+  display: flex;
+  margin-top: 120px;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+.buttom {
+  display: flex;
+  padding: 10px;
+  width: 130px;
+  height: 40px;
+  outline: 0;
+  text-align: center;
+  justify-content: center;
+  border: 0;
+  margin-top: 5px;
+  border-radius: 3px;
+  font-family: Poppins;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  background: white;
+    color: var(--cor-text);
+    align-items: center;
+    cursor: pointer;
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.15));
+}
+#cursor {
+  cursor: inherit;
+}
+.buttomsoft, .buttomhard {
+  display: flex;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 100px;
+  background-color: none;
+  height: 100px;
+  width: 95%;
+  text-align: center;
+  opacity: 1;
+}
+
+ul span {
+  display: inline-block;
+  margin-left: 3px;
+  border: none;
+  color: #272726;
+  padding: 0px 7px!important;
+  font-size: 15px;
+  font-weight: normal;
+  background: 
+  var(--cor-principal);
+  border-radius: 2px;
+  margin-top: 10px;
+  margin: 15px;
+}
+
+.buttomhard {
+  background-color: rgb(155, 155, 188);
+  opacity: 1;
+  z-index: 4;
+}
+.index {
+  z-index: 4;
+}
+#left {
+  margin-left: 50px;
+}
+.ti {
+  position: absolute;
+  width: 100%;
+  font-family: Work Sans,sans-serif;
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
