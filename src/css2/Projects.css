@@ -69,8 +69,8 @@ button {
   background: url("https://www.toptal.com/designers/subtlepatterns/uploads/tactile_noise.png");
 }
 .sidebarproject h1 {
-  font-family: Recoleta;
-  font-size: 60px;
+  font-family: Work Sans,sans-serif;
+  font-size: 50px;
   color: var(--cor-text-h1);
   transform: rotate(270deg);
 }
@@ -256,7 +256,7 @@ table td {
 
     .left {
       margin-left: 40px;
-      margin-top: 10px;
+      margin-top: 100px;
     }
 }
  @media screen and (max-width: 780px) {

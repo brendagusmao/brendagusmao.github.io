@@ -12,6 +12,74 @@
   --cor-text-h2-dark:#c4c4c4;
 }
 
+.buttomclose {
+  display: flex;
+  padding: 10px;
+  width: 120px;
+  height: 30px;
+  outline: 0;
+  text-align: center;
+  justify-content: center;
+  margin-top: 5px;
+  border-radius: 3px;
+  font-family: Poppins;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: #b99bb2;
+    color: white;
+    align-items: center;
+    cursor: pointer;
+  border: 1px solid #9a7a939c;
+  text-shadow: 1px 1px 1px #9a7a93;
+}
+
+.seta2 {
+  position: absolute;
+  display: inline-block;
+  margin-left: 3px;
+  border: none;
+  color:  #b99bb2;
+  font-size: 55px;
+  font-weight: normal;
+  border-radius: 2px;
+  margin-top: -71px;
+  margin-left: 410px;
+}
+
+.pa {
+  margin-left: 5px;
+}
+
+#boxright {
+  display: flex;
+  width: 40%;
+  align-content: center;
+  right: 50px;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  /* margin-left: 900px; */
+  margin-top: 100px;
+  width: 45%;
+  height:  60%;
+  text-align: center;
+}
+.softSkills {
+  display: flex;
+  width: 100%;
+  margin-top: -50px;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+}
+.top {margin-top: -350px;}
+
+ul span {
+  font-family: Poppins;
+  font-size: 13px;
+}
 @font-face {
   font-family: "PP Neue Montreal";
   src: url(./css2/fontes/NeueMontreal-Regular.otf);
@@ -28,17 +96,65 @@
   pointer-events: none;
 }
 
-/* body {
-  background-color: #61dafb;
-  font-family: Montserrat, sans-serif;
-  color: rgb(85 85 85);
+@media screen and (max-width: 1280px) {
+  .seta2 {
+    margin-top: -71px;
+    margin-left: 310px;
+  }
 }
-
-body.dark {
-  background-color: #282c34;
-  color: rgb(208 208 211);
-} */
-
+@media screen and (max-width: 780px) {
+  .backgroundSkills {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 105%;
+    align-items: center;
+    height: 1100px;
+  }
+  .seta2 {
+    margin-top: -71px;
+    margin-left: 280px;
+  }
+  #boxleft {
+    width: 35%;
+  }
+  #boxright {
+  margin-top: 450px;
+  width: 80%!important;
+  }
+  .softSkills {
+    max-width: 100%;
+    display: flex;
+    margin-top: 250px;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .top {margin-top: -40px;
+    left: 10px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .top {margin-top: -40px;
+    left: 20px;
+  }
+  .seta2 {
+    margin-top: -71px;
+    margin-left: 280px;
+  }
+  #boxleft {
+    width: 100%;
+  }
+  .hardSkills {
+    margin-left: 10px;
+  }
+  .buttom {
+    width: 90px!important;
+    font-size: 15px!important;
+  }
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

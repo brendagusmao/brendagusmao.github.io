@@ -1,5 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
+import { IoMdArrowDropdown } from "react-icons/io";
+import { RiCloseCircleFill } from "react-icons/ri";
 import '../css2/Skills.css';
 
 function Skills()  {
@@ -17,7 +19,7 @@ function Skills()  {
       if (menuState === 'open') {
         nav.style.height = '300px';
         nav.style.color = 'white';
-        nav.style.opacity = '1';
+        nav.style.opacity = '0';
       } else {
         nav.style.height = '300px';
         nav.style.color = 'white';
@@ -39,7 +41,6 @@ function Skills()  {
       } else {
         nav2.style.height = '300px';
         nav2.style.opacity = '1';
-        <div className="index" />
       }
     }, [menu2State]);
 
@@ -64,14 +65,29 @@ function Skills()  {
             </ul>
             </div>
             <div onClick={toggleMenu2} id="left">
-            {menu2State === 'closed' ? <div className="buttom">close</div>: <div className="buttom">Back-end</div>}
+            {menu2State === 'closed' ? <div className="buttomclose">close <RiCloseCircleFill className="pa" /></div>: <div className="buttom">Back-end</div>}
          </div>
          <div className="buttomhard">
-          <ul>
-            <li>testando</li>
+         <div className="seta2"><IoMdArrowDropdown /></div>
+         <ul>
+            <span>hard testando</span>
+            <span>hard testando</span>
+            <span>hard testando</span>
+            <span>hard testando</span>
             </ul>
             </div>
             </section>
+         </div>
+         <div id="boxright">
+         <h1 className="ti top"> Soft Skills</h1>
+         <section className="softSkills">
+         <ul>
+            <span>hard testando</span>
+            <span>hard testando</span>
+            <span>hard testando</span>
+            <span>hard testando</span>
+            </ul>
+          </section>
          </div>
           </div>
     );
