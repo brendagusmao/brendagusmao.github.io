@@ -67,9 +67,9 @@ function Header() {
           <img src="https://spreadthename.com/wp-content/uploads/2021/04/professional-web-design-social-ink-professional-web-design-png-1000_813.png" alt="" />
         </div>
         <div className="dev">
-          <span class="line-divider" />
+          <span className="line-divider" />
           <h2> developer full stack</h2>
-          <span class="line-divider" />
+          <span className="line-divider" />
           </div>
           <div>
     </div>

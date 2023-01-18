@@ -6,7 +6,7 @@ class About extends React.Component {
     return (
         <div className="backgroundAbout">
           <div id="about">
-            <h1> About me <span class="line-divider2" /></h1>
+            <h1> About me <span className="line-divider2" /></h1>
           Fico tão cansada às vezes, e digo para mim mesma que está errado, que não é assim, que não é este o tempo, que não é este o lugar, que não é esta a vida. 
           (…) então eu não sentia nada, podia fazer as coisas mais audaciosas sem sentir nada, bastava estar atenta como estes gerânios, você acha que um gerânio sente alguma coisa? Quero dizer, um gerânio está sempre tão ocupado em ser um gerânio e deve ter tanta certeza de ser um gerânio que não lhe sobra tempo para nenhuma outra dúvida…
           </div>

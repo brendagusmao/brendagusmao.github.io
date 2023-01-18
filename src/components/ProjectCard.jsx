@@ -10,8 +10,9 @@ class ProjectCard extends React.Component {
     return (
         <div>
           <table>
-      <tr>
-          <td class="item">
+          <thead>
+            <tr>
+          <th className="item">
             <img src={ image } alt={ name } />
                 <div className="info">
                     <div className="i-title">
@@ -29,8 +30,9 @@ class ProjectCard extends React.Component {
           <div className="title-icon2"><a href="https://github.com/brendagusmao/" target="_blank" rel="noopener noreferrer" title="github2"><FaGithub /> </a></div>
           <div className="title-icon"><a href="https://github.com/brendagusmao/" target="_blank" rel="noopener noreferrer" title="live preview"> <BiWindowOpen /> </a></div>
           </div>
-        </td>
+        </th>
         </tr>
+        </thead>
         </table>
         </div>
     );
