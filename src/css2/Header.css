@@ -370,6 +370,57 @@ span.line-divider {
   -webkit-animation: fade-in-right 1s alternate;
   animation: fade-in-right 1.8s alternate;
 }
+@media screen and (max-width: 1280px) {
+  .sidebar {
+    margin-left: 60px;
+  }
+  .sidebar h1 {
+    font-size: 90px;
+  }
+  .tgb {
+    margin-top: 35px;
+    width: 100px;
+    margin-right: 20px;
+    z-index: 9;
+  }
+
+  .dev {
+    margin-left: 50px;
+    margin-top: -50px;
+    z-index: 9;
+  }
+
+  .dev h2 {
+    font-size: 20px;
+    line-height: 20.08px;
+  }
+
+  span.line-divider {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 10%;
+    background-color: var(--cor-text-h2);
+    opacity: 0.5;
+  }
+  .navegation {
+    width: 684px;
+    height: 82px;
+    margin-left: 700px;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+  }
+  .hi img {
+  width: 450px;
+  margin-right: 150px;
+  }
+  .circle {
+    margin-top: -50px;
+  }
+}
 @media screen and (max-width: 768px) {
   .tgb {
     margin-top: 25px;
@@ -446,10 +497,17 @@ span.line-divider {
     z-index: 9;
   }
   .circle2 {
-    margin-top: 80px;
+    width: 250px;
+    height: 250px;
+    margin-top: 300px;
+    margin-left: 35%;
   }
   .circle {
-    margin-top: -20px;
+    width: 250px;
+    height: 250px;
+
+    margin-top: 60px;
+    margin-left: 33%;
   }
   .buttontoggle {
     display: flex;

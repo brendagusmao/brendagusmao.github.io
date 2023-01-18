@@ -27,8 +27,10 @@ class ProjectCard extends React.Component {
             </div>
           </div>
           <div className="title-bar">{ name }
-          <div className="title-icon2"><a href="https://github.com/brendagusmao/" target="_blank" rel="noopener noreferrer" title="github2"><FaGithub /> </a></div>
-          <div className="title-icon"><a href="https://github.com/brendagusmao/" target="_blank" rel="noopener noreferrer" title="live preview"> <BiWindowOpen /> </a></div>
+          <div className="title-icon">
+            <a href="https://github.com/brendagusmao/" target="_blank" rel="noopener noreferrer" title="github2"><FaGithub /> </a>
+            <a href="https://github.com/brendagusmao/" target="_blank" rel="noopener noreferrer" title="live preview"> <BiWindowOpen /> </a>
+            </div>
           </div>
         </th>
         </tr>
