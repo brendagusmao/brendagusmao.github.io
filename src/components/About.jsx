@@ -1,7 +1,15 @@
 import React from 'react';
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import '../css2/About.css';
 
 class About extends React.Component {
+  handleScroll = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+  });
+  };
+
   render() {
     return (
         <div className="backgroundAbout">
@@ -18,6 +26,8 @@ class About extends React.Component {
           <div className="tape" />
           <div className="tape-2" />
           </div>
+
+         <div onClick={this.handleScroll} className="totop"><BsFillArrowUpCircleFill /></div>
           </div>
     );
   }

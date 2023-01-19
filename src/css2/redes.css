@@ -1,0 +1,174 @@
+.backgroundContact {
+    align-items: left;
+    background: url("https://www.toptal.com/designers/subtlepatterns/uploads/dust_scratches.png");
+    background-color: #fffefe;
+    background-size: repeat;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 105%;
+    overflow-x: hidden;
+  }
+  .dark .backgroundContact {
+    background: url("../image/micro_carbon.png");;
+    background-color: #272726;
+    overflow-x: hidden;
+  }
+.menurede {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    left: 420px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.menurede a {
+    color: white;
+    font-size: 35px;
+    margin: 10px;
+    background-color: var(--cor-principal);
+    padding: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgb(185, 131, 90);
+}
+
+.dark .menurede a {
+    background-color: rgb(185, 131, 90);
+}
+.email {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    left: 400px;
+    margin-top: 150px;
+    position: absolute;
+    font-size: 20px;
+    font-family: Poppins;
+    color: var(--cor-text);
+}
+.dark .email {
+    color: var(--cor-text-dark);
+}
+.iconm {
+    color: var(--cor-principal);
+    font-size: 25px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 5px;
+    padding-bottom: 0px;
+    border-radius: 5px;
+}
+
+footer {
+    bottom:0px;
+    margin-top: 0%;
+}
+
+.bgfooter {
+  width: 100%;
+  display: flex;
+  margin-left: 0px;
+  margin-top: 250px;
+  height: 150px;
+  border-radius: 0px;
+  color: var(--cor-text);
+  background-color: none;
+  background: linear-gradient(#a0819983 30%, rgba(237, 174, 126, 0.4));
+  box-shadow: 1px 1px 10px 2px #9897979d;
+  align-content: flex-end;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dark .bgfooter {
+    box-shadow: 1px 1px 10px 2px #0000009d;
+    border-top: 1px solid black;
+}
+.description {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    left: 650px;
+    margin-top: 10px;
+    position: absolute;
+    font-size: 14px;
+    font-family: Poppins;
+}
+.dark .description {
+    color: var(--cor-text-dark);
+}
+@media screen and (max-width: 1280px) {
+    .description {
+        left: 450px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+
+    .menurede {
+        left: 350px;
+    }
+    .email {
+        left: 350px;
+        margin-top: 150px;
+        font-size: 20px;
+    }
+    .iconm {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .menurede {
+        left: 80px;
+    }
+    .menurede a {
+        font-size: 25px;
+    }
+    .email {
+        left: 90px;
+        margin-top: 150px;
+        font-size: 20px;
+    }
+    .iconm {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    .description {
+        left: 40px;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+  }
+  @media screen and (max-width: 365px) {
+    .menurede {
+        left: 80px;
+    }
+    .menurede a {
+        font-size: 25px;
+    }
+    .email {
+        left: 90px;
+        margin-top: 150px;
+        font-size: 18px;
+    }
+    .iconm {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .description {
+        left: 20px;
+        margin-top: 10px;
+        font-size: 11px;
+    }
+  }
+

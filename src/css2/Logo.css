@@ -1,0 +1,80 @@
+.logo {
+    width: 80px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(208, 205, 205, 0.442);
+}
+.dark .logo {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.537);
+}
+
+.logo h1 {
+    font-size: 55px;
+    color: #a88ba1;
+    z-index: 3;
+    margin-top: 0px;
+    -webkit-animation: fade-in-right 1s alternate;
+animation: fade-in-right 1.8s alternate;
+}
+.dark .logo h1 {
+    color: var(--cor-text-dark)!important;
+}
+
+.logo2 {
+    margin-left: 20px;
+    color: #cdbcc9;
+    font-size: 55px;
+    margin-top: 0px;
+    position: fixed;
+    -webkit-animation: change-color 1s infinite;
+animation: change-color 1.8s infinite;
+}
+
+@keyframes change-color {
+    0% {
+        color: var(--cor-principal);
+    }
+
+    50% {
+        color: #cdbcc9;
+    }
+
+    100% {
+        color: rgb(237, 174, 126);
+    }
+}
+
+@keyframes fade-in-right {
+0% {
+  -webkit-transform: translateX(80px);
+  transform: translateX(80px);
+  opacity: 0;
+}
+
+100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+}
+@media screen and (max-width: 430px) {
+    .logo {
+        margin-top: -5px;
+
+    margin-left: 20px;
+    }
+    .logo h1 {
+        font-size: 45px;
+    }
+    .logo2 {
+        font-size: 45px;
+    }
+  }
+  @media screen and (max-width: 365px) {
+    
+  }
+

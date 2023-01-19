@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FaGithub } from "react-icons/fa";
-import { BiWindowOpen } from "react-icons/bi";
+import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
 import '../css2/Projects.css';
 
 class ProjectCard extends React.Component {
@@ -29,7 +29,7 @@ class ProjectCard extends React.Component {
           <div className="title-bar">{ name }
           <div className="title-icon">
             <a href="https://github.com/brendagusmao/" target="_blank" rel="noopener noreferrer" title="github2"><FaGithub /> </a>
-            <a href="https://github.com/brendagusmao/" target="_blank" rel="noopener noreferrer" title="live preview"> <BiWindowOpen /> </a>
+            <a href="https://github.com/brendagusmao/" target="_blank" rel="noopener noreferrer" title="live preview"> <BsFillArrowUpRightCircleFill /> </a>
             </div>
           </div>
         </th>

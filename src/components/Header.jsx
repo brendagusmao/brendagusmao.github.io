@@ -1,10 +1,12 @@
 import { useContext, useEffect, useState } from 'react';
 import { HiSun } from "react-icons/hi";
 import { BsFillMoonStarsFill, BsFillGridFill, BsChevronContract } from "react-icons/bs";
+import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import { SiAboutdotme } from "react-icons/si";
 import { RiPagesFill } from "react-icons/ri";
 import { MdPermContactCalendar, MdOutlineAutoGraph } from "react-icons/md";
 import MyContext from '../context/MyContext';
+import Logo from './Logo';
 import '../css2/Header.css';
 
 function Header() {
@@ -42,10 +44,10 @@ function Header() {
             </div>
         </div>
       <nav>
-        <h1 id="title"> oi</h1>
+        <h1 id="title"> <Logo /></h1>
         <div className="navegation">
           <li><a href="#about"><span>About</span></a></li>
-          <li><a href="#skills" data-slidey="2"><span>Skills</span></a></li>
+          <li><a href="#skills"><span>Skills</span></a></li>
           <li><a href="#projects"><span>Projects</span></a></li>
           <li><a href="#contact"><span>Contact</span></a></li>
         </div>
@@ -73,6 +75,7 @@ function Header() {
           </div>
           <div>
     </div>
+    <div className="totop2"><BsFillArrowUpCircleFill /></div>
       </header>
   );
 }

@@ -54,6 +54,10 @@ button {
   font-weight: bolder;
 }
 
+.dark .leftb a {
+  color: var(--cor-text-dark);
+}
+
 .leftb {
   display: flex;
     flex-wrap: nowrap;
@@ -62,7 +66,9 @@ button {
     align-items: center;
     flex-direction: row;
   position: absolute;
-  margin-top: 50px;
+  margin-top: 0px;
+  font-family: Work Sans,sans-serif;
+  font-size: 25px;
 }
 
 .dark .sidebarproject {
@@ -89,7 +95,7 @@ section {
     display: grid;
     margin: 5px;
     grid-template-columns: auto;
-    gap: 1px;
+    gap: 50px;
     align-content: flex-start;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: minmax(200px, auto);
@@ -97,7 +103,7 @@ section {
 }
 
 .left {
-  margin-left: 150px;
+  margin-left: 50px;
   margin-top: 100px;
 }
 table {
@@ -170,8 +176,8 @@ table td {
   .title-icon2 {
     color: #fff;
     align-items: center;
-    background: #a46921;
-    color: #ffffff;
+    background: transparent;
+    color: #000;
     display: flex;
     font-size: 33px;
     height: 20px;
@@ -187,7 +193,6 @@ table td {
 }
 .title-icon {
   width: 100%;
-  color: #fff;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
   color: #ffffff;
@@ -203,26 +208,28 @@ table td {
   }
 .title-icon a {
   display: flex;
-  background: #a46921;
-  font-size: 25px;
-  color: #fff;
-  margin: 1px;
+  background: transparent;
+  font-size: 35px;
+  color: #000;
+  margin: 0px;
   margin-top: 2px;
-  font-size: 25px;
   height: 20px;
   text-align: center;
-  padding: 10px;
-  width: 20px;
+  padding: 5px;
+  width: 25px;
   align-content: center;
   align-items: center;
 }
-
+.dark .title-icon a {
+  color: var(--cor-text-dark);
+}
 @media screen and (max-width: 1280px) {
   section {
     grid-template-columns: auto;
-    gap: 0px;
+    gap: 50px;
+    column-gap: 50px!important;
     align-content: flex-start;
-    grid-template-columns: repeat(3, 9fr);
+    grid-template-columns: repeat(3, 0fr);
     grid-auto-rows: minmax(200px, auto);
     }
     .item {
@@ -263,7 +270,7 @@ table td {
     .backgroundProject {
       display: flex;
       flex-direction: row;
-      height: 1830px;
+      height: 1930px;
       align-content: center;
       justify-content: center;
       width: 105%;
@@ -271,7 +278,7 @@ table td {
     }
     section {
     grid-template-columns: repeat(1, 2fr);
-    grid-auto-rows: minmax(270px, auto);
+    grid-auto-rows: minmax(200px, auto);
     }
     .item {
       width: 300px;
@@ -296,7 +303,7 @@ table td {
         opacity: 0;
         width: 280px;
         height: 152px;
-
+        display: none;
   margin-top: -173px;
       }
   }
@@ -310,7 +317,7 @@ table td {
       height: 170px;
     }
     .left {
-      margin-left: 0px;
+      margin-left: 50px;
       margin-top: 10px;
     }
     .info {
@@ -325,4 +332,10 @@ table td {
       padding: 10px;
       width: 17px;
       }
+  }
+  @media screen and (max-width: 380px) {
+    .left {
+      margin-left: 0px;
+      margin-top: 10px;
+    }
   }
