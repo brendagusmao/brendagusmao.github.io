@@ -109,16 +109,16 @@ footer {
 }
 @media screen and (max-width: 1280px) {
     .description {
-        left: 450px;
+        left: 300px;
         margin-top: 10px;
         font-size: 14px;
     }
 
     .menurede {
-        left: 350px;
+        left: 300px;
     }
     .email {
-        left: 350px;
+        left: 250px;
         margin-top: 150px;
         font-size: 20px;
     }
@@ -150,6 +150,9 @@ footer {
     }
   }
   @media screen and (max-width: 365px) {
+    .backgroundContact {
+        width: 109%;
+    }
     .menurede {
         left: 80px;
     }
