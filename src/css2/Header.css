@@ -387,7 +387,7 @@ span.line-divider {
 
 @media screen and (max-width: 1381px) {
   .sidebar {
-    margin-left: 30px;
+    margin-left: 10px;
   }
   .sidebar h1 {
     font-size: 90px;
@@ -426,6 +426,7 @@ span.line-divider {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-content: flex-start;
     z-index: 10;
   }
   .hi img {
@@ -450,7 +451,7 @@ span.line-divider {
   .tgb {
     margin-top: 25px;
     width: 50px;
-    margin-right: 30px;
+    margin-right: 50px;
     z-index: 9;
   }
 
