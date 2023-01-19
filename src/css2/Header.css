@@ -536,7 +536,7 @@ span.line-divider {
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 410px) {
   .tgb {
     margin-top: 25px;
     width: 50px;
