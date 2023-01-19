@@ -385,7 +385,7 @@ span.line-divider {
   background-color: #212120;
 }
 
-@media screen and (max-width: 1380px) {
+@media screen and (max-width: 1281px) {
   .sidebar {
     margin-left: 60px;
   }
@@ -497,7 +497,7 @@ span.line-divider {
   }
 
   nav {
-    width: 80%;
+    width: 100%;
     height: 80px;
   }
 
@@ -540,7 +540,7 @@ span.line-divider {
   .tgb {
     margin-top: 25px;
     width: 50px;
-    margin-right: 60px;
+    margin-right: 50px;
   }
 
   .backgroundHeader {
@@ -589,6 +589,9 @@ span.line-divider {
 }
 
 @media screen and (max-width: 360px) {
+  .tgb {
+    margin-right: 0px;
+  }
   .sidebar h1 {
     font-size: 55px;
   }
