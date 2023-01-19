@@ -184,6 +184,20 @@ span.line-divider2 {
   color: var(--cor-text-dark);
   opacity: 8;
 }
+@media screen and (max-width: 1481px) {
+  .backgroundAbout {
+    width: 110%;
+  }
+  #about {
+    margin-left: 110px;
+    width: 40%;
+    margin-top: 150px;
+  }
+  .cardimgs {
+    width: 40%;
+    margin-top: 200px;
+  }
+  }
 @media screen and (max-width: 1380px) {
   #about {
     margin-left: 20px;

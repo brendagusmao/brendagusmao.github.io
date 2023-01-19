@@ -98,7 +98,7 @@ body {
   margin-left: 0px;
   margin-top: 100px;
   background-color: none;
-  height: 100px;
+  height: 320px;
   width: 95%;
   text-align: center;
   opacity: 1;
@@ -143,8 +143,16 @@ border-radius: 5px;
   background-size: repeat;
   text-align: center;
   opacity: 1;
+  display: flex;
   z-index: 4;
+  height: 300px;
 }
+.buttomsoft {
+  z-index: 5;
+  background: url("ttps://www.toptal.com/designers/subtlepatterns/uploads/tactile_noise.png");
+  background-color: #f6f5f5;
+}
+
 .dark .buttomsoft {
   background: url("https://www.toptal.com/designers/subtlepatterns/uploads/tactile_noise.png");
   background-color: #272726;
@@ -175,6 +183,14 @@ border-radius: 5px;
   color: var(--cor-text-dark);
 }
 
+@media screen and (max-width: 1481px) {
+  .backgroundSkills {
+    width: 110%;
+  }
+  #boxleft {
+    margin-left: 150px;
+  }
+}
 @media screen and (max-width: 780px) {
   .backgroundSkills {
     display: flex;

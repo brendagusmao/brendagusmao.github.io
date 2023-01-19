@@ -26,13 +26,10 @@ function Skills()  {
       const nav = document.querySelector('.buttomsoft');
   
       if (menuState === 'open') {
-        nav.style.height = '450px';
-        nav.style.color = 'white';
-        nav.style.opacity = '1';
+        nav.style.display = 'flex';
+        nav.style.zIndex= "10";
       } else {
-        nav.style.height = '450px';
-        nav.style.color = 'white';
-        nav.style.opacity = '1';
+        nav.style.display= 'flex';
       }
     }, [menuState]);
 
@@ -44,12 +41,10 @@ function Skills()  {
       const nav2 = document.querySelector('.buttomhard');
   
       if (menu2State === 'open') {
-        nav2.style.height = '320px';
-        nav2.style.color = 'red';
-        nav2.style.opacity = '0';
+        nav2.style.display = 'none';
       } else {
-        nav2.style.height = '305px';
-        nav2.style.opacity = '1';
+        nav2.style.display = 'flex';
+        nav2.style.zIndex= "9";
       }
     }, [menu2State]);
 
