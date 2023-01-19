@@ -184,7 +184,7 @@ span.line-divider2 {
   color: var(--cor-text-dark);
   opacity: 8;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1380px) {
   #about {
     margin-left: 20px;
     width: 40%;

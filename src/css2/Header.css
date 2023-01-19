@@ -393,9 +393,9 @@ span.line-divider {
     font-size: 90px;
   }
   .tgb {
-    margin-top: 35px;
-    width: 100px;
-    margin-right: 20px;
+    margin-top: 40px;
+    width: 80px;
+    margin-right: 70px;
     z-index: 9;
   }
 
@@ -421,19 +421,29 @@ span.line-divider {
   .navegation {
     width: 684px;
     height: 82px;
-    margin-left: 700px;
-    margin-top: -15px;
+    margin-left: 550px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 10;
   }
   .hi img {
-  width: 430px;
-  margin-right: 150px;
+  width: 400px;
+  margin-right: 120px;
   }
   .circle {
-    margin-top: -50px;
+    margin-top: -80px;
+  margin-left: 64%;
+
+  }
+  .navegation a {
+    font-size: 30px;
+    line-height: 49px;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #797676;
   }
 }
 @media screen and (max-width: 768px) {
@@ -497,7 +507,7 @@ span.line-divider {
   }
 
   nav {
-    width: 100%;
+    width: 98%;
     height: 80px;
   }
 

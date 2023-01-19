@@ -223,7 +223,7 @@ table td {
 .dark .title-icon a {
   color: var(--cor-text-dark);
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1380px) {
   section {
     grid-template-columns: auto;
     gap: 50px;
