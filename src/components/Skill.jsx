@@ -48,7 +48,7 @@ function Skills()  {
         nav2.style.color = 'red';
         nav2.style.opacity = '0';
       } else {
-        nav2.style.height = '320px';
+        nav2.style.height = '305px';
         nav2.style.opacity = '1';
       }
     }, [menu2State]);
