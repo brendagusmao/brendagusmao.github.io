@@ -422,7 +422,7 @@ span.line-divider {
     width: 684px;
     height: 82px;
     margin-left: 550px;
-    margin-top: 15px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -502,8 +502,7 @@ span.line-divider {
   }
 
   .backgroundHeader {
-    background-size: cover;
-    height: 800px;
+    width: 108%;
   }
 
   nav {
